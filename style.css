@@ -1,6 +1,6 @@
 .div1 {
     display: block;
-    color: rgb(36, 212, 212);
+    color: brown;
     margin-left: 25%;
 }
 .div1 p {
@@ -17,6 +17,20 @@
     margin-left: 25%;
     color: blueviolet;
 }
-.myfooter {
-    display: inline-table;
+.myfooter li {
+    display: inline;
+    position: absolute;
+    margin-bottom: 0ch;
+}
+#navbar li {
+    display: inline;
+    position: fixed;
+
+}
+.div3:hover {
+    margin: 2px;
+    border-radius: 60deg;
+    background-color: brown;
+    margin-left: 25%;
+    color: blueviolet;
 }
