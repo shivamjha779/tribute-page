@@ -1,0 +1,22 @@
+.div1 {
+    display: block;
+    color: rgb(36, 212, 212);
+    margin-left: 25%;
+}
+.div1 p {
+    display: block;
+    margin-left: 16%;
+}
+
+.div2 {
+   height: 100px;
+   width: 50px;
+   margin-left: 25%;
+}
+.div3 {
+    margin-left: 25%;
+    color: blueviolet;
+}
+.myfooter {
+    display: inline-table;
+}
