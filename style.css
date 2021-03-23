@@ -1,36 +1,60 @@
 .div1 {
     display: block;
     color: brown;
-    margin-left: 25%;
+    text-align: center;
 }
 .div1 p {
     display: block;
-    margin-left: 16%;
+    text-align: center;
+}
+.div2 {
+   margin-left: 100px;
 }
 
-.div2 {
-   height: 100px;
-   width: 50px;
-   margin-left: 25%;
+.div2 img {
+   height: 400px;
+   width: 800px;
+  /* align-content: center; */
 }
 .div3 {
-    margin-left: 25%;
-    color: blueviolet;
+    text-align: center;
+    color: rgb(248, 212, 8);
+    border-style: solid;
+    
+    background-color: azure;
+    border-radius: 2px solid;
 }
 .myfooter li {
     display: inline;
-    position: absolute;
+}
+.myfooter {
+    display: inline;
+    position: fixed;
     margin-bottom: 0ch;
+}
+#navbar {
+    display: inline;
+    position: fixed;
 }
 #navbar li {
     display: inline;
-    position: fixed;
 
 }
 .div3:hover {
-    margin: 2px;
-    border-radius: 60deg;
-    background-color: brown;
-    margin-left: 25%;
-    color: blueviolet;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+.div1:hover {
+    border-radius: 5px;
+    border-style: solid;
+}
+.mysection {
+    border-radius: 10px;
+    background-color: bisque;
+}
+.mysection p {
+   margin-left: 50px;
+   margin-top: 50px;
+
 }
