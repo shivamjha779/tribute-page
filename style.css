@@ -19,6 +19,7 @@ font-family: 'Montserrat', sans-serif;
 .div2 img {
    height: 400px;
    width: 800px;
+
   /* align-content: center; */
 }
 .div3 {
@@ -38,11 +39,15 @@ font-family: 'Montserrat', sans-serif;
     margin-bottom: 0ch;
 }
 #navbar {
-    display: inline;
+    display: inline-block;
     position: fixed;
+    border-color: blueviolet;
+    border-style: solid;
+    text-align: justify;
 }
 #navbar li {
     display: inline;
+    text-align: center;
 
 }
 .div3:hover {
@@ -61,5 +66,15 @@ font-family: 'Montserrat', sans-serif;
 .mysection p {
    margin-left: 50px;
    margin-top: 50px;
+   padding: 20px 50px;
+   border-color: darkblue;
+   border-style: solid;
 
+}
+.line {
+    background-color: cornsilk;
+    padding: 100px 100px;
+    margin: 20px;
+    border-style: solid;
+    border-color: crimson;
 }
